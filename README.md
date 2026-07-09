@@ -57,7 +57,7 @@ No configuration required. Drop the jar in and it works.
 
 ## Installation
 
-Drop `docket-plugin-compatibility-1.0-RELEASE.jar` into your server's `plugins/` folder and restart. The scan runs automatically with no additional setup. See [USAGE.md](USAGE.md) for commands, configuration, and Discord setup.
+Drop `docket-plugin-compatibility-1.0-RELEASE.jar` into your server's `plugins/` folder and restart. The scan runs automatically with no additional setup. See [USAGE.md](https://github.com/create-hydraulics/docket-plugin-source/blob/main/USAGE.md) for commands, configuration, and Discord setup.
 
 
 ---
