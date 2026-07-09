@@ -58,11 +58,6 @@ No configuration required. Drop the jar in and it works.
 
 Drop `docket-plugin-compatibility-1.0-RELEASE.jar` into your server's `plugins/` folder and restart. The scan runs automatically with no additional setup. See [USAGE.md](USAGE.md) for commands, configuration, and Discord setup.
 
----
-
-## Screenshots
-
-*Add your screenshots or GIFs here.*
 
 ---
 
