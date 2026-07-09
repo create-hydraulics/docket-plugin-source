@@ -1,0 +1,16 @@
+# Build output
+build/
+
+# Gradle cache and wrapper internals
+.gradle/
+
+# Test server (run-paper)
+run/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

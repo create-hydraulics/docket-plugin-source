@@ -1,0 +1,16 @@
+# Docket — Plugin Compatibility Scanner Configuration
+
+discord:
+  # Set to true and provide a webhook URL to receive the startup report in Discord.
+  enabled: false
+  webhook-url: ""
+  # Also post when /plugincheck rescan is run.
+  post-on-rescan: true
+
+scan:
+  # Bytecode-level event listener analysis (requires reading plugin JAR files).
+  # Disable only if the scan causes startup lag on very large servers.
+  event-listener-analysis: true
+  # Include raw event-listener listings (INFO tier) in the console report.
+  # These are always available via /plugincheck events regardless of this setting.
+  console-info-listings: false

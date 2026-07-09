@@ -1,0 +1,24 @@
+name: Docket
+version: '1.0-RELEASE'
+description: Plugin compatibility and conflict scanner — catches dependency issues, command collisions, and event-listener conflicts before they cause weird bugs.
+main: plg.docket.docket.Docket
+api-version: '1.21'
+load: POSTWORLD
+authors:
+  - Docket Contributors
+website: https://github.com/docket-plugin/docket
+
+commands:
+  plugincheck:
+    description: View or re-run the plugin compatibility report.
+    usage: /<command> [rescan|events] [page]
+    permission: plugincheck.use
+    aliases: [docket, pcheck]
+
+permissions:
+  plugincheck.use:
+    description: Access to the /plugincheck command and full report.
+    default: op
+  plugincheck.joinmessage:
+    description: Receive the plugin health summary when joining the server.
+    default: op
