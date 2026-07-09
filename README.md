@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Replace the src below with your hosted plugin logo (recommended: 128x128 PNG) -->
-<img src="https://via.placeholder.com/128x128/4a90d9/ffffff?text=D" alt="Docket" width="128" height="128"/>
+<img src="file:///C:/Users/odtu/Downloads/Untitled%20(1).png" alt="Docket" width="128" height="128"/>
 
 # Docket: Plugin Compatibility Scanner
 
